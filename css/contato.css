@@ -1,0 +1,51 @@
+.contato{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.contato form{
+  display:flex;
+  max-width: 30%;
+  flex-direction: column;
+  margin: 0 10px;
+  flex-wrap: wrap;
+  align-items:center;
+  margin-left:100px;
+  
+  
+
+}
+
+.contato form li{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 1 0 75px;;
+  
+  
+}
+.contato form #enviar{
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #993b2a;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+  white-space: wrap;
+}
+.contato form li input, .contato form li textarea{
+ width: 260px;
+}
+
+
+.contato  img{
+  
+  max-width: 80%;
+  height: 400px;
+  
+}

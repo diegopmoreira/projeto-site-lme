@@ -1,0 +1,51 @@
+.dados{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0;
+  margin: 0 auto;
+  max-width: 960px;
+  height: 100vh;
+}
+
+.dados info{
+  flex: 2 1 300px;
+  margin: 0 10px;
+  
+}
+
+.dados .info h3{
+  font-size: 2.25em;
+  margin-bottom: .5em;
+}
+
+.dados .info h3::after{
+  content:"";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display:block;
+  background-color: black;
+  width: 30%;
+  height: 3px;
+}
+
+.dados .info table{
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dados .info table td, .dados .info table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.dados .info table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #993b2a;
+    color: white;
+}
+
